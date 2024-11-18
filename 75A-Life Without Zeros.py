@@ -1,1 +1,10 @@
-
+s1 = input()
+s2 = input()
+sum1 = int(s1) + int(s2)
+d = str(sum1)
+ans = d.replace('0','')
+x = s1.replace('0','')
+y = s2.replace('0','')
+final = int(x)+int(y)
+print ('YES' if final == int(ans) else 'NO')
+ 
